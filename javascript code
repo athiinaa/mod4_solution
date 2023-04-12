@@ -1,0 +1,16 @@
+// Define the array of names
+const names = ["John", "Mary", "Jack", "Jennifer"];
+
+// Loop over each name
+for (let i = 0; i < names.length; i++) {
+  // Get the current name and the first letter of the name
+  const name = names[i];
+  const firstLetter = name.charAt(0);
+
+  // Check if the first letter is J or j
+  if (firstLetter === "J" || firstLetter === "j") {
+    console.log("Goodbye " + name);
+  } else {
+    console.log("Hello " + name);
+  }
+}
